@@ -4,10 +4,10 @@ import './App.css';
 function App() {
 
   const testFunction = () => {
-    return 2+3;
+    return 2+2;
   }
 
-  const number = testFunction();
+  const number2 = testFunction();
 
   return (
     <div className="App">
@@ -17,7 +17,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <h2>{number}</h2>
+        <h2>{number2}</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
