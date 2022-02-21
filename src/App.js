@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   const testFunction = () => {
-    return 2+2;
+    return 2+3;
   }
 
   const number = testFunction();
