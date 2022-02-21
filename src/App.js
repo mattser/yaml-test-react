@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const testFunction = () => {
+    return 2+2;
+  }
+
+  const number = testFunction();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +16,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <h2>{number}</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
