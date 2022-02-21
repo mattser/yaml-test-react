@@ -7,7 +7,7 @@ function App() {
     return 2+2;
   }
 
-  const number2 = testFunction();
+  const number3 = testFunction();
 
   return (
     <div className="App">
@@ -17,7 +17,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <h2>{number2}</h2>
+        <h2>{number3}</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
