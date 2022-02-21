@@ -10,6 +10,6 @@ test('renders learn react link', () => {
 
 test('Calls function and calculation', () => {
   render(<App />);
-  const number = screen.getByText("4");
+  const number = screen.getByText("5");
   expect(number).toBeInTheDocument();
 })
